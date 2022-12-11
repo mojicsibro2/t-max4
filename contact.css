@@ -1,0 +1,138 @@
+
+.header{
+    display: flex;
+}
+
+.logo{
+    margin-left: 100px;
+    margin-right: 300px;
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px rgba(125, 125, 125, 0.4),
+    -2px -5px 15px rgba(125, 125, 125, 0.8),
+    2px 5px 5px rgba(125, 125, 125, 0.2),
+    -6px -2px 5px rgba(125, 125, 125, 0.6);
+}
+.logo >a {
+    color: white;
+    text-decoration: none;
+}
+.headerItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerItems>div{
+    margin-right: 50px;
+}
+.navItems a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.signup{
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    background: green;
+    width: 150px;
+    height: 20px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.contactItems{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 200px;
+    background-color:#fffefe;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid red;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 10px rgba(8, 8, 8, 0.2),
+    2px 5px 10px rgba(8, 8, 8, 1.0);
+}
+.contactItems >h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+.contactText{
+    background: white;
+    box-shadow: 2px 3px 5px 10px rgba(8, 8, 8, 0.2),
+    2px 5px 10px rgba(8, 8, 8, 1.0);
+    border: 3px solid red;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 90% 40%/40% 70%;
+}
+.contactText h1{
+    font-size: 50px;
+    font-weight: 1000;
+    color: blue;
+}
+.contactText p{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(16, 247, 16);
+}
+.contactText img{
+    width: 300px;
+    height: 300px;
+    top: 300px;
+}
+.inputCnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.inputCnt >input{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 37px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: inset 5px 3px 5px #847d96,
+    inset -3px 3px 15px #959596;
+}
+.inputCnt >i{
+    background-color: rgb(54, 80, 54);
+    color: white;
+    padding: 11px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.inputCnt > input[type="submit"]{
+    background-color: #b9a4a6;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    box-shadow:3px 3px 10px #11062b,
+    -5px -5px 10px #64667573;
+}
